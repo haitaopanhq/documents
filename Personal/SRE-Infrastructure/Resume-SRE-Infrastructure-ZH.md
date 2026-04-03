@@ -11,15 +11,12 @@
 ## 期望职位
 
 - 云原生 / 云平台工程师
-- 平台工程师 / DevOps 工程师（偏架构与自动化）
-- 智能运维工程师 / 可观测性工程师（AIOps方向）
-- 全职岗位（非外包）
+- 平台工程师 / DevOps 工程师
+- 智能运维工程师 / 可观测性工程师
 
 ## 职业概述
 
-拥有丰富基础设施与自动化经验，专注 **Cloud 多云架构、可观测性体系与智能运维（AIOps）**。
-擅长通过 IaC + GitOps 构建统一交付体系，实现从 Kubernetes 到云平台的端到端自动化。
-具备跨行业落地经验（制造业、金融、电信），能在 IT 与 OT 结合场景中实现系统高可用、低成本与智能化。
+拥有丰富基础设施与自动化经验，专注 **Cloud 多云架构、可观测性体系与智能运维（AIOps）**。擅长通过 IaC + GitOps 构建统一交付体系，实现从 Kubernetes 到云平台的端到端自动化。具备跨行业落地经验（制造业、金融、电信），能在 IT 与 OT 结合场景中实现系统高可用、低成本与智能化。
 
 - 构建 Terraform / Pulumi + ArgoCD + GitHub Actions 自动化流水线，部署效率提升 50%+。
 - 设计 Prometheus + Grafana + DeepFlow + Datadog 可观测体系，统一指标、日志、链路数据。
@@ -119,13 +116,3 @@
 | 时间 | 学历 | 学校 | 专业 |
 |------|------|------|------|
 | 2006–2010 | 本科 | 长春工程学院 | 电气工程与自动化 |
-
-## 个人开源与社区项目
-
-** https://github.com/cloud-neutral-toolkit **
-
-- **XControl**：Web 控制台 + RAG 智能助手
-- **XCloudFlow**：多云 IaC + GitOps 编排框架
-- **XScopeHub**：可观测与智能分析套件（ OTel / PGVector /LLM ）
-- **XPlane** : 面向多云的声明式控制面，用于全局流量管理和自动扩缩容。
-- **CloudNativeArchitectureReference**：面向多云与混合环境的基础设施自动化与 GitOps 项目，涵盖 IaC 与 CI/CD 模块。
