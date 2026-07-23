@@ -1,8 +1,8 @@
 # 潘海涛
 
-上海，中国 ｜ 13120846579 | haitaopanhq@gmail.com
-**LinkedIn: [www.linkedin.com/in/haitaopan](https://www.linkedin.com/in/haitaopan)**
-**个人技术平台 | [www.svc.plus](https://www.svc.plus)**
+- 上海，中国 ｜ 13120846579 | haitaopanhq@gmail.com
+- LinkedIn: [www.linkedin.com/in/haitaopan](https://www.linkedin.com/in/haitaopan)
+- 个人技术平台 | [www.svc.plus](https://www.svc.plus)
 
 ## 求职方向
 
