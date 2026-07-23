@@ -6,6 +6,7 @@ if [ -z "${PROJECT:-}" ]; then
   exit 1
 fi
 
-ARTIFACT_NAME="${PROJECT//\//-}-docs"
+PROJ_NAME="${PROJECT%.md}"
+ARTIFACT_NAME="${PROJ_NAME//\//-}-docs"
 echo "ARTIFACT_NAME=$ARTIFACT_NAME" >> "$GITHUB_ENV"
 echo "Prepared ARTIFACT_NAME=$ARTIFACT_NAME"
