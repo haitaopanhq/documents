@@ -1,7 +1,8 @@
 # Haitao Pan
 
-Shanghai, China | +86 19286470192 | manbuzhe2008@gmail.com
-LinkedIn: [www.linkedin.com/in/haitaopan](https://www.linkedin.com/in/haitaopan) | [www.svc.plus](https://www.svc.plus)
+Shanghai, China | +86 13120846579 | haitaopanhq@gmail.com
+**LinkedIn: [www.linkedin.com/in/haitaopan](https://www.linkedin.com/in/haitaopan)**
+**Personal Technology Platform | [www.svc.plus](https://www.svc.plus)**
 
 ## Target Role
 
@@ -21,11 +22,11 @@ Comfortable working with Terraform, Ansible, GitLab CI, GitHub Actions, Argo CD,
 | IaC & automation | Terraform, Ansible, Shell, Python, SaltStack; configuration management and deployment/operations automation |
 | DevOps & GitOps | GitLab CI, GitHub Actions, Jenkins, Argo CD, FluxCD, Helm, CI/CD pipelines |
 | Container platforms | Docker, Kubernetes, EKS, enterprise container PaaS; cluster upgrades, application delivery, operational support |
-| Observability & reliability | Prometheus, Elasticsearch, Datadog, DeepFlow, eBPF, OpenTelemetry; logging, metrics, tracing, and performance troubleshooting |
-| AI platform fundamentals | GPU-cluster and hybrid-cloud inference-environment operations support, containerized deployment, model integration, MCP Server, RAG / AI Agent POC validation |
+| Observability & reliability | OpenTelemetry, Prometheus, VictoriaLogs, Grafana, DeepFlow, eBPF; unified collection, log/metric analysis, tracing, and performance troubleshooting |
+| AI platform fundamentals | GPU-cluster operations support, hybrid-cloud inference environments, vLLM / SGLang / Ollama, MCP Server, RAG / AI Agent POC |
 | Systems | Linux, networking and security fundamentals, distributed storage, incident response, technical documentation, customer support |
 
-## Selected Project Experience
+## Project Experience
 
 ### COSCO Shipping AI Agent POC | AI Operations Support Engineer
 **Jul 2025 – Sep 2025 | DeepFlow customer project**
@@ -89,24 +90,21 @@ Comfortable working with Terraform, Ansible, GitLab CI, GitHub Actions, Argo CD,
 | May 2013 – Oct 2013 | Inspur Electronic Information Co., Ltd. | System Software Engineer |
 | May 2011 – Apr 2013 | China Standard Software Co., Ltd. | Software Engineer |
 
-## Earlier Relevant Experience
-
-- **Tongxin Software Co., Ltd. | Software Engineer (May 2015 – Apr 2018):** Developed and maintained Deepin Server products. Used Linux, Python, Shell, Docker, and Jenkins for release packaging, compilation, deployment automation, and technical support.
-- **KnowSec Technology Co., Ltd. | Operations Engineer (Nov 2013 – Apr 2015):** Maintained Linux, network, and CDN infrastructure; used Shell, Python, SaltStack, Nginx, and Nagios for release support, monitoring, incident response, and operations-platform improvement.
-- **Inspur Electronic Information Co., Ltd. | System Software Engineer (May 2013 – Oct 2013):** Maintained Linux server environments, updates, patches, and performance monitoring.
-- **China Standard Software Co., Ltd. | Software Engineer (May 2011 – Apr 2013):** Supported Linux porting for the Loongson platform and RPM build automation using Koji and Shell, including build, test, and release workflows.
-- **Jiangsu BoCloud Technology Co., Ltd. | Senior Solution Architect (Dec 2021 – Jan 2022):** Worked on cloud-platform solution architecture.
 
 ## Personal Open-source Projects
 
 Maintains and develops public open-source work through [AI Agentic Workspace](https://github.com/ai-workspace-lab) and [AI Workspace Infra](https://github.com/ai-workspace-infra), focused on local/hybrid AI workspaces, automated delivery, and observability engineering.
 
-- **[XWorkspace Console](https://github.com/ai-workspace-lab/xworkspace-console):** Local AI-workspace control plane combining a React console, Go status API, systemd user services, and desktop templates. Provides a single surface for services, runtime, terminal access, and workspace navigation, with deployment orchestration for local AI services and gateway access.
 - **[XWorkmate App](https://github.com/ai-workspace-lab/xworkmate-app) / [ACP Bridge](https://github.com/ai-workspace-lab/xworkmate-bridge):** Flutter-based AI-workspace client and unified ACP bridge. Supports local or remote gateway task execution and routes Codex, OpenCode, Gemini, and gateway providers through one integration path.
+
+- **[XWorkspace Console](https://github.com/ai-workspace-lab/xworkspace-console):** Local AI-workspace control plane combining a React console, Go status API, systemd user services, and desktop templates. Provides a single surface for services, runtime, terminal access, and workspace navigation, with deployment orchestration for local AI services and gateway access.
+
 - **[iac_modules](https://github.com/ai-workspace-infra/iac_modules):** GitOps/IaC toolkit for multi-cloud and hybrid infrastructure, covering infrastructure delivery, Kubernetes resources, configuration automation, application-build management, and operations optimization.
-- **[observability.svc.plus](https://github.com/ai-workspace-infra/observability.svc.plus):** End-to-end observability solution using OpenTelemetry Agents with Prometheus, Loki, and Grafana for unified collection and metrics/log analysis.
+
+- **[observability.svc.plus](https://github.com/ai-workspace-infra/observability.svc.plus):** End-to-end observability solution using OpenTelemetry Agents with Prometheus, VictoriaLogs, and Grafana for unified collection and metrics/log analysis.
+
 - **[platform-ops-toolkit](https://github.com/ai-workspace-infra/platform-ops-toolkit):** AI-driven platform-operations tooling focused on migration automation.
-- **Earlier projects:** [XCloudFlow](https://github.com/svc-design/XCloudFlow) (multi-cloud management and automation), [XConfig](https://github.com/svc-design/XConfig) (Rust-Agent-based DevOps orchestration and configuration automation), and [XScopeHub](https://github.com/svc-design/XScopeHub) (observability suite).
+
 
 ## Education & Languages
 

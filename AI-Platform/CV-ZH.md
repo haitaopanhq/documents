@@ -1,7 +1,8 @@
 # 潘海涛
 
-上海，中国 ｜ 19286470192 ｜ manbuzhe2009@qq.com
-LinkedIn：[www.linkedin.com/in/haitaopan](https://www.linkedin.com/in/haitaopan) ｜ [www.svc.plus](https://www.svc.plus)
+上海，中国 ｜ 13120846579 | haitaopanhq@gmail.com
+**LinkedIn: [www.linkedin.com/in/haitaopan](https://www.linkedin.com/in/haitaopan)**
+**个人技术平台 | [www.svc.plus](https://www.svc.plus)**
 
 ## 求职方向
 
@@ -21,7 +22,7 @@ AI Platform / Cloud Platform / DevOps Engineer
 | IaC 与自动化 | Terraform、Ansible、Shell、Python、SaltStack；配置管理、部署与运维自动化 |
 | DevOps / GitOps | GitLab CI、GitHub Actions、Jenkins、Argo CD、FluxCD、Helm、CI/CD 流水线 |
 | 容器平台 | Docker、Kubernetes、EKS、企业容器 PaaS；集群升级、应用发布与运行保障 |
-| 可观测性与可靠性 | Prometheus、Elasticsearch、Datadog、DeepFlow、eBPF、OpenTelemetry；日志、指标、链路与性能问题排查 |
+| 可观测性与可靠性 | OpenTelemetry、Prometheus、VictoriaLogs、Grafana、DeepFlow、eBPF；统一采集、日志/指标分析、链路与性能问题排查 |
 | AI 平台基础 | GPU 集群与混合云推理环境运维支持、容器化部署、模型接入、MCP Server、RAG / AI Agent POC 验证 |
 | 基础环境 | Linux、网络与安全基础、分布式存储、故障响应、技术文档与客户支持 |
 
@@ -89,14 +90,6 @@ AI Platform / Cloud Platform / DevOps Engineer
 | 2013.05 – 2013.10 | 浪潮电子信息有限公司 | 系统软件工程师 |
 | 2011.05 – 2013.04 | 中国标准软件有限公司 | 软件工程师 |
 
-## 早期相关经历
-
-- **深度科技有限公司｜软件工程师（2015.05 – 2018.04）**：参与 Deepin Server 产品开发与维护，使用 Linux、Python、Shell、Docker、Jenkins 支持版本打包、编译、部署自动化和技术支持。
-- **知道创宇科技有限公司｜运维工程师（2013.11 – 2015.04）**：维护 Linux、网络及 CDN 基础设施，使用 Shell、Python、SaltStack、Nginx、Nagios 支持发布、监控、故障响应和运维平台优化。
-- **浪潮电子信息有限公司｜系统软件工程师（2013.05 – 2013.10）**：负责 Linux 服务器环境维护、更新、补丁和性能监控。
-- **中国标准软件有限公司｜软件工程师（2011.05 – 2013.04）**：参与龙芯平台 Linux 系统移植及 RPM 构建自动化，使用 Koji、Shell 维护构建、测试和发布流程。
-- **江苏博云科技有限公司｜高级解决方案架构师（2021.12 – 2022.01）**：从事云平台解决方案相关工作。
-
 ## 个人开源项目
 
 持续维护与实践两个公开开源组织：[AI Agentic Workspace](https://github.com/ai-workspace-lab) 与 [AI Workspace Infra](https://github.com/ai-workspace-infra)，围绕本地/混合 AI 工作空间、自动化交付和可观测性进行工程实践。
@@ -104,7 +97,7 @@ AI Platform / Cloud Platform / DevOps Engineer
 - **[XWorkspace Console](https://github.com/ai-workspace-lab/xworkspace-console)**：本地 AI 工作空间控制台，整合 React 控制台、Go 状态 API、systemd 用户服务和桌面模板，为服务、运行时、终端和工作空间导航提供统一入口；支持本地 AI 服务与网关接入的部署编排。
 - **[XWorkmate App](https://github.com/ai-workspace-lab/xworkmate-app) / [ACP Bridge](https://github.com/ai-workspace-lab/xworkmate-bridge)**：基于 Flutter 的 AI 工作空间客户端与统一 ACP bridge；支持本地或远程网关任务执行，并将 Codex、OpenCode、Gemini 和网关 Provider 接入到统一调用路径。
 - **[iac_modules](https://github.com/ai-workspace-infra/iac_modules)**：面向多云和混合基础设施的 GitOps / IaC 工具集，覆盖基础设施部署、Kubernetes 资源、配置自动化、应用构建管理及运维优化。
-- **[observability.svc.plus](https://github.com/ai-workspace-infra/observability.svc.plus)**：以 OpenTelemetry Agent 统一采集为基础，整合 Prometheus、Loki 和 Grafana 的端到端可观测性方案，用于指标与日志分析。
+- **[observability.svc.plus](https://github.com/ai-workspace-infra/observability.svc.plus)**：以 OpenTelemetry Agent 统一采集为基础，整合 Prometheus、VictoriaLogs 和 Grafana 的端到端可观测性方案，用于指标与日志分析。
 - **[platform-ops-toolkit](https://github.com/ai-workspace-infra/platform-ops-toolkit)**：面向迁移自动化的 AI 驱动平台运维工具实践。
 - **既有项目：** [XCloudFlow](https://github.com/svc-design/XCloudFlow)（多云管理与自动化）、[XConfig](https://github.com/svc-design/XConfig)（基于 Rust Agent 的 DevOps 编排与配置自动化）、[XScopeHub](https://github.com/svc-design/XScopeHub)（可观测性套件）。
 
