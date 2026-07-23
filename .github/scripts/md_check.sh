@@ -16,16 +16,27 @@ projects=(
   "The-IndieDeveloper-Fullstack-Roadmap/EN"
   "Solutions/CN"
   "Solutions/EN"
-  "AI-Platform/CN"
-  "AI-Platform/EN"
+  "AI-Platform/CV-EN.md"
+  "AI-Platform/CV-ZH.md"
 )
 
 errors=0
 total_files=0
 
 for proj in "${projects[@]}"; do
+  if [ -f "$proj" ]; then
+    if [ ! -s "$proj" ]; then
+      echo "::error file=$proj::Markdown file is empty"
+      errors=$((errors + 1))
+    else
+      echo "✓ $proj (1 markdown file validated)"
+      total_files=$((total_files + 1))
+    fi
+    continue
+  fi
+
   if [ ! -d "$proj" ]; then
-    echo "::warning ::Project directory $proj does not exist!"
+    echo "::warning ::Project target $proj does not exist!"
     errors=$((errors + 1))
     continue
   fi

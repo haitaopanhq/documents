@@ -38,8 +38,8 @@ jobs:
           - The-IndieDeveloper-Fullstack-Roadmap/EN
           - Solutions/CN
           - Solutions/EN
-          - AI-Platform/CN
-          - AI-Platform/EN
+          - AI-Platform/CV-EN.md
+          - AI-Platform/CV-ZH.md
     env:
       RSYNC_SSH_KEY: ${{ secrets.RSYNC_SSH_KEY }}
       VPS_HOST: ${{ secrets.VPS_HOST }}
@@ -67,9 +67,19 @@ jobs:
         with:
           name: ${{ env.ARTIFACT_NAME }}
           path: |
+            ${{ matrix.project }}
+            ${{ matrix.project }}*.pdf
+            ${{ matrix.project }}*.docx
+            ${{ matrix.project }}*.html
+            ${{ matrix.project }}/*.pdf
+            ${{ matrix.project }}/*.docx
+            ${{ matrix.project }}/*.html
             ${{ matrix.project }}/**/*.pdf
             ${{ matrix.project }}/**/*.docx
             ${{ matrix.project }}/**/*.html
+            AI-Platform/*.pdf
+            AI-Platform/*.docx
+            AI-Platform/*.html
           if-no-files-found: ignore
 
   release:
@@ -77,7 +87,6 @@ jobs:
     needs: build
     if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
-
     env:
       TAG_NAME: release-v${{ github.run_number }}-${{ github.run_id }}
       RSYNC_SSH_KEY: ${{ secrets.RSYNC_SSH_KEY }}
