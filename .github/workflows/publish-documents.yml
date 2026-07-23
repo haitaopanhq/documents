@@ -75,7 +75,9 @@ jobs:
   release:
     name: GitHub Release & Deploy
     needs: build
+    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
     runs-on: ubuntu-latest
+
     env:
       TAG_NAME: release-v${{ github.run_number }}-${{ github.run_id }}
       RSYNC_SSH_KEY: ${{ secrets.RSYNC_SSH_KEY }}
