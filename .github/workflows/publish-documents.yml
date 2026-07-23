@@ -102,6 +102,9 @@ jobs:
         with:
           path: artifacts/
 
+      - name: Prepare unique release assets
+        run: .github/scripts/prepare_release_assets.sh artifacts release_assets
+
       - name: Create GitHub Release
         id: create_release
         uses: softprops/action-gh-release@v2
@@ -109,9 +112,9 @@ jobs:
           tag_name: ${{ env.TAG_NAME }}
           name: Release ${{ env.TAG_NAME }}
           files: |
-            artifacts/**/*.pdf
-            artifacts/**/*.docx
-            artifacts/**/*.html
+            release_assets/*.pdf
+            release_assets/*.docx
+            release_assets/*.html
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
