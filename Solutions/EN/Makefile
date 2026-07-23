@@ -21,29 +21,30 @@ endif
 # 章节文件列表
 CHAPTERS := $(sort $(wildcard chapters/*.md))
 
-all: Observability-Guide.html Observability-Guide.pdf Observability-Guide.docx
+all: Solutions-Guide.html Solutions-Guide.pdf Solutions-Guide.docx
 
 # 目标：生成 HTML 电子书
-Observability-Guide.html: $(CHAPTERS)
-	$(PANDOC_CMD) $(CHAPTERS) -o Observability-Design-and-Implementation.html \
+Solutions-Guide.html: $(CHAPTERS)
+	$(PANDOC_CMD) $(CHAPTERS) -o Solutions-Design-and-Implementation.html \
 		--toc --toc-depth=3                  \
 		--variable mainfont="$(MAIN_FONT)"   \
 		--variable CJKmainfont="$(CJK_FONT)" \
 		--variable fontsize=12pt
 
 # 目标：生成 PDF 电子书
-Observability-Guide.pdf: $(CHAPTERS)
-	$(PANDOC_CMD) $(CHAPTERS) -o Observability-Design-and-Implementation.pdf --pdf-engine=xelatex \
+Solutions-Guide.pdf: $(CHAPTERS)
+	$(PANDOC_CMD) $(CHAPTERS) -o Solutions-Design-and-Implementation.pdf --pdf-engine=xelatex \
 		--variable mainfont="$(MAIN_FONT)"   \
 		--variable CJKmainfont="$(CJK_FONT)" \
 		--variable geometry:margin=1in       \
 		--variable fontsize=12pt
 
 # 目标：生成 DOCX 电子书
-Observability-Guide.docx: $(CHAPTERS)
-	$(PANDOC_CMD) $(CHAPTERS) -o Observability-Guide.docx \
+Solutions-Guide.docx: $(CHAPTERS)
+	$(PANDOC_CMD) $(CHAPTERS) -o Solutions-Guide.docx \
 		--variable mainfont="$(MAIN_FONT)" \
 		--variable fontsize=12pt
+
 
 # 清理中间文件
 clean:

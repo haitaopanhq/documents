@@ -51,13 +51,14 @@ jobs:
         env:
           PROJECT: ${{ matrix.project }}
 
-      - name: Upload PDFs and DOCX files to GitHub Artifacts
+      - name: Upload PDF, DOCX, and HTML files to GitHub Artifacts
         uses: actions/upload-artifact@v4
         with:
           name: ${{ env.ARTIFACT_NAME }}
           path: |
-            ${{ matrix.project }}/*.pdf
-            ${{ matrix.project }}/*.docx
+            ${{ matrix.project }}/**/*.pdf
+            ${{ matrix.project }}/**/*.docx
+            ${{ matrix.project }}/**/*.html
           if-no-files-found: ignore
 
       - name: Create Release
@@ -69,15 +70,17 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Upload PDFs and DOCX files to Release
+      - name: Upload PDF, DOCX, and HTML files to Release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ env.TAG_NAME }}
           files: |
-            ${{ matrix.project }}/*.pdf
-            ${{ matrix.project }}/*.docx
+            ${{ matrix.project }}/**/*.pdf
+            ${{ matrix.project }}/**/*.docx
+            ${{ matrix.project }}/**/*.html
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
 
       - name: Ensure deps (rsync, ssh)
         run: .github/scripts/ensure_deps.sh

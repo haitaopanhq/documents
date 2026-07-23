@@ -21,29 +21,30 @@ endif
 # 章节文件列表
 CHAPTERS := $(sort $(wildcard chapters/*.md))
 
-all: Observability-Guide.html Observability-Guide.pdf Observability-Guide.docx
+all: AI-Platform-Guide.html AI-Platform-Guide.pdf AI-Platform-Guide.docx
 
 # 目标：生成 HTML 电子书
-Observability-Guide.html: $(CHAPTERS)
-	$(PANDOC_CMD) $(CHAPTERS) -o Observability-Design-and-Implementation.html \
+AI-Platform-Guide.html: $(CHAPTERS)
+	$(PANDOC_CMD) $(CHAPTERS) -o AI-Platform-Design-and-Implementation.html \
 		--toc --toc-depth=3                  \
 		--variable mainfont="$(MAIN_FONT)"   \
 		--variable CJKmainfont="$(CJK_FONT)" \
 		--variable fontsize=12pt
 
 # 目标：生成 PDF 电子书
-Observability-Guide.pdf: $(CHAPTERS)
-	$(PANDOC_CMD) $(CHAPTERS) -o Observability-Design-and-Implementation.pdf --pdf-engine=xelatex \
+AI-Platform-Guide.pdf: $(CHAPTERS)
+	$(PANDOC_CMD) $(CHAPTERS) -o AI-Platform-Design-and-Implementation.pdf --pdf-engine=xelatex \
 		--variable mainfont="$(MAIN_FONT)"   \
 		--variable CJKmainfont="$(CJK_FONT)" \
 		--variable geometry:margin=1in       \
 		--variable fontsize=12pt
 
 # 目标：生成 DOCX 电子书
-Observability-Guide.docx: $(CHAPTERS)
-	$(PANDOC_CMD) $(CHAPTERS) -o Observability-Guide.docx \
+AI-Platform-Guide.docx: $(CHAPTERS)
+	$(PANDOC_CMD) $(CHAPTERS) -o AI-Platform-Guide.docx \
 		--variable mainfont="$(MAIN_FONT)" \
 		--variable fontsize=12pt
+
 
 # 清理中间文件
 clean:

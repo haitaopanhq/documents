@@ -8,7 +8,12 @@ SUBDIRS = \
     interview-qa/CN \
     interview-qa/EN \
     The-IndieDeveloper-Fullstack-Roadmap/EN \
-    The-IndieDeveloper-Fullstack-Roadmap/CN
+    The-IndieDeveloper-Fullstack-Roadmap/CN \
+    Solutions/CN \
+    Solutions/EN \
+    AI-Platform/CN \
+    AI-Platform/EN
+
 
 .PHONY: all $(SUBDIRS)
 

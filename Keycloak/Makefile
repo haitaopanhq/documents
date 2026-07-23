@@ -21,6 +21,10 @@ endif
 # 章节文件列表
 CHAPTERS := $(sort $(wildcard chapters/*.md))
 
+.PHONY: all clean book.html book.pdf book.docx
+
+all: book.html book.pdf book.docx
+
 # 目标：生成 HTML 电子书
 book.html: $(CHAPTERS)
 	$(PANDOC_CMD) $(CHAPTERS) -o Keycloak-SSO-Design-and-Implementation.html \
