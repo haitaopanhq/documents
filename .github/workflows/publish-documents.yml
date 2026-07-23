@@ -9,7 +9,19 @@ on:
   workflow_dispatch: {}  # Manual trigger
 
 jobs:
+  md-check:
+    name: Markdown Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate Markdown Files
+        run: .github/scripts/md_check.sh
+
   build:
+    name: Build (${{ matrix.project }})
+    needs: md-check
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -29,7 +41,6 @@ jobs:
           - AI-Platform/CN
           - AI-Platform/EN
     env:
-      TAG_NAME: ${{ matrix.project }}-v${{ github.run_number }}-${{ github.run_id }}
       RSYNC_SSH_KEY: ${{ secrets.RSYNC_SSH_KEY }}
       VPS_HOST: ${{ secrets.VPS_HOST }}
       RSYNC_SSH_USER: ${{ secrets.RSYNC_SSH_USER }}
@@ -61,26 +72,37 @@ jobs:
             ${{ matrix.project }}/**/*.html
           if-no-files-found: ignore
 
-      - name: Create Release
+  release:
+    name: GitHub Release & Deploy
+    needs: build
+    runs-on: ubuntu-latest
+    env:
+      TAG_NAME: release-v${{ github.run_number }}-${{ github.run_id }}
+      RSYNC_SSH_KEY: ${{ secrets.RSYNC_SSH_KEY }}
+      VPS_HOST: ${{ secrets.VPS_HOST }}
+      RSYNC_SSH_USER: ${{ secrets.RSYNC_SSH_USER }}
+      REMOTE_ROOT: ${{ secrets.REMOTE_ROOT }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download all compiled artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: artifacts/
+
+      - name: Create GitHub Release
         id: create_release
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ env.TAG_NAME }}
           name: Release ${{ env.TAG_NAME }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Upload PDF, DOCX, and HTML files to Release
-        uses: softprops/action-gh-release@v2
-        with:
-          tag_name: ${{ env.TAG_NAME }}
           files: |
-            ${{ matrix.project }}/**/*.pdf
-            ${{ matrix.project }}/**/*.docx
-            ${{ matrix.project }}/**/*.html
+            artifacts/**/*.pdf
+            artifacts/**/*.docx
+            artifacts/**/*.html
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
 
       - name: Ensure deps (rsync, ssh)
         run: .github/scripts/ensure_deps.sh
@@ -88,13 +110,5 @@ jobs:
       - name: Init SSH
         run: .github/scripts/init_ssh.sh
 
-      - name: Determine remote directories
-        run: .github/scripts/determine_remote_dirs.sh
-        env:
-          PROJECT: ${{ matrix.project }}
-
       - name: Rsync release assets to remote
-        run: .github/scripts/rsync_assets.sh
-        env:
-          PROJECT: ${{ matrix.project }}
-
+        run: .github/scripts/rsync_all_assets.sh artifacts
