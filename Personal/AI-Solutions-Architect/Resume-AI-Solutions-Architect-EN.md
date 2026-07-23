@@ -22,12 +22,13 @@
 
 Solutions Architect with 14 years of experience across manufacturing, finance, telecom, and Internet industries, focused on **helping enterprises realize business value through AI and cloud-native technology implementation**.
 Solution-oriented approach, leveraging cloud-native infrastructure, Kubernetes platforms, and AI/ML technologies as enablers to design and deliver implementable, scalable technical solutions for customers.
+Since Sep 2025, independently building product and content assets around Xstream, the XWorkmate AI Agent Suite, AI-Workspace components, Cloud-Neutral Toolkit, and the long-form technical series **IT Brief History**. These are positioned as long-term personal product and content initiatives, to be continuously maintained even after the next full-time role.
 
 - Led and delivered **enterprise-grade AI Agent platform solutions**, helping customers go from requirements to production in 3 months;
-- Provided **LLM implementation consulting services** covering model selection, API integration, RAG architecture design, and cost optimization;
+- Provided **LLM implementation consulting services** covering model selection, API integration, LiteLLM gateway integration, RAG architecture design, and cost optimization;
 - Designed **cloud-native transformation solutions** helping customers complete containerization, DevOps process establishment, and multi-cloud architecture migration;
 - Built **observability and intelligent operations solutions**, transforming technologies like DeepFlow and Prometheus into business value;
-- Practiced **AI Coding / Vibe Coding**, validating AI-assisted development efficiency in real projects, independently released **Xstream, Xworkmate** and other products.
+- Practiced **AI Coding / Vibe Coding**, validating AI-assisted development efficiency in real projects, independently building **Xstream**, the **XWorkmate AI Agent Suite**, and **AI-Workspace** components.
 
 ---
 
@@ -35,13 +36,13 @@ Solution-oriented approach, leveraging cloud-native infrastructure, Kubernetes p
 
 | Solution Areas | Capabilities |
 |---------------|--------------|
-| **AI Implementation Solutions** | LLM Selection Consulting · RAG Architecture Design · AI Agent Platform Planning · Model API Integration · Cost & Performance Optimization |
+| **AI Implementation Solutions** | LLM Selection Consulting · RAG Architecture Design · AI Agent Platform Planning · LiteLLM Gateway Integration · Cost & Performance Optimization |
 | **Cloud-Native Transformation** | Containerization Planning · Kubernetes Platform Selection · DevOps Process Design · Multi-cloud Architecture Consulting · Migration Planning |
 | **Observability Solutions** | Monitoring System Planning · Fault Diagnosis Process Design · AIOps Intelligent Operations · Performance Optimization Recommendations |
 
 | Technical Enablers | Technology Stack |
 |-------------------|------------------|
-| **AI Technology** | vLLM / SGLang / Ollama · RAG / LangChain / MCP · PGVector · OpenAI API · Multi-model Routing |
+| **AI Technology** | vLLM / SGLang / Ollama · RAG / LangChain / MCP · PGVector · OpenAI API · LiteLLM · Multi-model Routing |
 | **AI Coding Tools** | GPT-4 / Claude / Grok / Codex · Cursor / Windsurf · GitHub Copilot · Vibe Coding |
 | **Cloud-Native Stack** | Kubernetes · Docker · Helm · Terraform · ArgoCD / FluxCD |
 | **Observability Stack** | Prometheus · Grafana · DeepFlow · Datadog · eBPF |
@@ -134,7 +135,7 @@ Solution-oriented approach, leveraging cloud-native infrastructure, Kubernetes p
 
 ## AI Coding Practice
 
-### Xstream – macOS/iOS Intelligent Proxy Application
+### Xstream – macOS/iOS Intelligent Proxy Application (Long-Term Initiative)
 
 **Background:** Validate AI Coding feasibility in production applications, independently developed cross-platform proxy client.
 
@@ -150,23 +151,55 @@ Solution-oriented approach, leveraging cloud-native infrastructure, Kubernetes p
 
 ---
 
-### Xworkmate – Enterprise Collaboration & Knowledge Management Tool
+### XWorkmate AI Agent Suite – AI Workspace & Agent Runtime (Long-Term Initiative)
 
-**Background:** Explore AI-native application development patterns to build enterprise-grade knowledge management platform.
+**Background:** Explore AI-native application development patterns and build an AI workspace with an agent runtime for real task execution.
 
 **Solution:**
-- Used Codex, GPT-4 for full-stack development including frontend UI, backend API, and database design;
-- Integrated RAG architecture supporting intelligent retrieval and Q&A for enterprise knowledge bases;
-- Implemented AI-assisted incremental development mode for rapid feature module iteration;
-- Implemented multi-model routing dynamically selecting optimal LLM based on task types.
+- Independently developed core components including xworkmate-app, xworkmate-bridge, and openclaw-multi-session-plugins;
+- Built desktop AI-Workspace experience, Bridge runtime gateway, LiteLLM-based model access layer, ACP/JSON-RPC integration, multi-agent routing, and OpenClaw multi-session plugin capabilities;
+- Used Codex/GPT-5, Gemini, and Opencode for full-stack implementation, regression testing, release packaging, and documentation;
+- Implemented AI-assisted incremental development mode for rapid feature iteration.
 
 **Results:**
-- Validated Vibe Coding efficiency gains in enterprise application development, reduced development cycle by 50%+;
-- Accumulated best practices for AI-assisted development, forming reusable development templates and prompt libraries.
+- Validated Vibe Coding efficiency gains in enterprise-grade AI Agent application development;
+- Accumulated reusable workflows for AI-assisted product planning, coding, testing, packaging, and technical documentation.
+
+---
+
+### IT Brief History – Technical Content & Personal Brand System (Long-Term Initiative)
+
+**Background:** Build a long-form technical content series connecting cloud computing evolution, AI Runtime, platform engineering, and agent workflows.
+
+**Solution:**
+- Planned and wrote the "IT Brief History" series, including visual explainers and narrative articles;
+- Converted hands-on engineering experience from Cloud-Neutral Toolkit, XWorkmate, AI-Workspace, and Xstream into reusable technical narratives;
+- Combined product building, open-source assets, and technical writing into a coherent public portfolio.
+
+**Results:**
+- Formed a content system that explains AI workbench, Agent Runtime, platform engineering, and cloud-neutral infrastructure in an accessible way;
+- Strengthened public positioning as an AI solutions architect with both implementation evidence and communication assets.
 
 ---
 
 ## Professional Experience
+
+### Independent Developer / AI Solutions Architect (Long-Term Personal Initiatives)
+**Freelance / Independent Projects** | *Sep 2025 – Present*
+
+**Role:** Independent product builder and AI solutions architect focused on AI workspace, Agent Runtime, and cloud-neutral infrastructure.
+
+**Key Responsibilities:**
+- Planned and developed Xstream, the XWorkmate AI Agent Suite, AI-Workspace components, and Cloud-Neutral Toolkit engineering assets;
+- Independently built XWorkmate core components: xworkmate-app for desktop/mobile AI workspace experience, xworkmate-bridge for Bridge runtime, ACP interfaces, LiteLLM gateway integration, multi-model/multi-agent routing, and openclaw-multi-session-plugins for OpenClaw multi-session capabilities;
+- Iterated Xstream macOS/iOS intelligent proxy application, validating AI-assisted development across client products, proxy networking, MCP integration, and release workflows;
+- Created the **IT Brief History** technical content series, turning cloud evolution, AI Runtime, platform engineering, and agent workflow practices into structured articles and visual explainers;
+- Used Codex, Gemini, and Opencode across requirement breakdown, architecture design, implementation, testing, documentation, and packaging.
+- Positioned these projects as long-term personal product, open-source, and technical content initiatives that will continue alongside future employment.
+
+**Deliverables:** Xstream, XWorkmate AI Agent Suite (xworkmate-app, xworkmate-bridge, openclaw-multi-session-plugins), IT Brief History content series, Cloud-Neutral Toolkit engineering assets, AI-Workspace components.
+
+---
 
 ### Beijing Yunshan Century Network Technology Co., Ltd. (DeepFlow Technology)
 **Senior Solutions Engineer** | *Nov 2024 – Sep 2025*
