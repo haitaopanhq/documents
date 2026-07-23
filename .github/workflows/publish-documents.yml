@@ -58,6 +58,7 @@ jobs:
           path: |
             ${{ matrix.project }}/*.pdf
             ${{ matrix.project }}/*.docx
+          if-no-files-found: ignore
 
       - name: Create Release
         id: create_release
