@@ -1,8 +1,8 @@
 # Haitao Pan
 
-Shanghai, China | +86 13120846579 | haitaopanhq@gmail.com
-**LinkedIn: [www.linkedin.com/in/haitaopan](https://www.linkedin.com/in/haitaopan)**
-**Personal Technology Platform | [www.svc.plus](https://www.svc.plus)**
+- Shanghai, China | +86 13120846579 | haitaopanhq@gmail.com
+- LinkedIn: [www.linkedin.com/in/haitaopan](https://www.linkedin.com/in/haitaopan)
+- Personal Technology Platform | [www.svc.plus](https://www.svc.plus)
 
 ## Target Role
 
