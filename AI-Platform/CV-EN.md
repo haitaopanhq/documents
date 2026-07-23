@@ -36,6 +36,13 @@ Comfortable working with Terraform, Ansible, GitLab CI, GitHub Actions, Argo CD,
 - Worked with R&D on testing conversational-agent workflows, including task decomposition, tool invocation, and knowledge-base Q&A.
 - Executed latency, accuracy, and stability testing; prepared deployment documentation and validation checklists for customer evaluation.
 
+### China Telecom Finance North-South Traffic Collection Support | Network Observability Engineer
+**Nov 2024 – Jul 2025 | DeepFlow customer project**
+**Technologies:** DeepFlow, Linux, Pcap, flow logs, eBPF, performance tuning, system migration
+
+- Supported collector performance and stability in high-concurrency environments, including investigation of bottlenecks and packet loss.
+- Assisted with DF Server storage/query optimization and capacity-expansion migration in Nanjing; delivered incident reports, upgrade plans, and implementation documentation.
+  
 ### Tesla Shanghai Internal IT Service Project | Site Reliability Engineer
 **Jan 2024 – Apr 2024 | Tesla (Shanghai) Co., Ltd.**
 **Technologies:** Linux, Kubernetes, GitHub Actions, Argo CD, Ansible, Helm, Jenkins
@@ -68,12 +75,7 @@ Comfortable working with Terraform, Ansible, GitLab CI, GitHub Actions, Argo CD,
 - Used Jenkins to support CI/CD automation and integrated Prometheus and Elasticsearch for monitoring, alerting, and troubleshooting.
 - Worked with bank stakeholders on requirements, application delivery across environments, and product feedback.
 
-### China Telecom Finance North-South Traffic Collection Support | Network Observability Engineer
-**Nov 2024 – Jul 2025 | DeepFlow customer project**
-**Technologies:** DeepFlow, Linux, Pcap, flow logs, eBPF, performance tuning, system migration
 
-- Supported collector performance and stability in high-concurrency environments, including investigation of bottlenecks and packet loss.
-- Assisted with DF Server storage/query optimization and capacity-expansion migration in Nanjing; delivered incident reports, upgrade plans, and implementation documentation.
 
 ## Employment History
 
