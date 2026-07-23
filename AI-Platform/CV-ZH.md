@@ -5,7 +5,7 @@ LinkedIn：[www.linkedin.com/in/haitaopan](https://www.linkedin.com/in/haitaopan
 
 ## 求职方向
 
-AI Platform / Cloud Platform / DevOps Engineer（Contractor）
+AI Platform / Cloud Platform / DevOps Engineer
 
 ## 个人概述
 

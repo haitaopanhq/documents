@@ -5,7 +5,7 @@ LinkedIn: [www.linkedin.com/in/haitaopan](https://www.linkedin.com/in/haitaopan)
 
 ## Target Role
 
-AI Platform / Cloud Platform / DevOps Engineer (Contractor)
+AI Platform / Cloud Platform / DevOps Engineer
 
 ## Professional Summary
 
