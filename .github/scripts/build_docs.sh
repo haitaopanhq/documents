@@ -6,4 +6,10 @@ if [ -z "${PROJECT:-}" ]; then
   exit 1
 fi
 
-make -C "$PROJECT"
+if make -C "$PROJECT" -n all >/dev/null 2>&1; then
+  echo "Building 'all' target for $PROJECT"
+  make -C "$PROJECT" all
+else
+  echo "Building default target for $PROJECT"
+  make -C "$PROJECT"
+fi
