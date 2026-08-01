@@ -27,6 +27,9 @@ jobs:
       matrix:
         project:
           - Personal
+          - Personal/Forward_Deployed_Engineer
+          - Personal/Server_Arch_Ops_Engineer
+          - Personal/SRE_Cloud_Native_Engineer
           - LandingZone
           - Keycloak
           - TechExploration
