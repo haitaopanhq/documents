@@ -2,12 +2,14 @@
 name: Build Personal SCNE Docs
 
 on:
+  workflow_dispatch: {}
   workflow_call:
 
 jobs:
   build:
     name: Build (Personal/SRE_Cloud_Native_Engineer)
-    runs-on: ubuntu-latest
+    runs-on:
+  workflow_dispatch: {} ubuntu-latest
     env:
       PROJECT: Personal/SRE_Cloud_Native_Engineer
     steps:

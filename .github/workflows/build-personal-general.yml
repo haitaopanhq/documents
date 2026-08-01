@@ -2,12 +2,14 @@
 name: Build Personal General Docs
 
 on:
+  workflow_dispatch: {}
   workflow_call:
 
 jobs:
   build:
     name: Build (Personal)
-    runs-on: ubuntu-latest
+    runs-on:
+  workflow_dispatch: {} ubuntu-latest
     env:
       PROJECT: Personal
     steps:
