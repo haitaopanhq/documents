@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 shopt -s nullglob
-
+shopt -s globstar
 if [ "${SSH_CONFIGURED:-false}" != "true" ]; then
   echo "::warning ::SSH is not configured. Skipping rsync to remote host."
   exit 0
