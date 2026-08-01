@@ -6,7 +6,7 @@
 - **LinkedIn**: [www.linkedin.com/in/haitaopan](www.linkedin.com/in/haitaopan)
 - **Website**: http://www.svc.plus
 
-# Core Competencies & Expertise (Tailored for Cloud-Native SRE)
+# Core Competencies & Expertise
 - **Large-Scale Kubernetes Operations**: Deep expertise in designing, planning, and managing large-scale K8s environments (up to 200+ nodes and 1,600+ cores). Proven track record in orchestrating zero-downtime cross-version upgrades, capacity planning, and ensuring high SLA for large internet clients and financial institutions. Master of Linux OS internals and networking stacks.
 - **Cloud-Native Ecosystem & Tooling Development**: Proficient in deploying and tuning core infrastructure open-source projects including Prometheus, Elasticsearch, Datadog, Vector, eBPF, and various CNI (e.g., NSX-T). Engineered advanced DevOps platforms and IaC toolchains (AI Workspace) using Rust and Python. Highly capable of developing SRE tools and automating containerized deployments.
 - **High-Concurrency Troubleshooting & OnCall**: Extensive field experience providing Tier-3 OnCall support for mission-critical core networks, container PaaS clouds, and industrial control systems (China Telecom Finance, Everbright Bank). Highly skilled in Pcap deep packet analysis, system bottleneck pinpointing, and rapid incident response to secure operational continuity alongside R&D teams.

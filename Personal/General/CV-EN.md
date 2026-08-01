@@ -18,7 +18,7 @@
 - Tech Stack: Linux, Python, Ansible, Docker, Kubernetes, IaC (Terraform / Ansible), DevOps
 - AI Infrastructure: K8S GPU clusters，vLLM/SGLang/Ollama Model Serving，MCP Server, RAG/AI Agent-based intelligent operations
 
-**Focus Areas**  
+**Focus Areas**
 
 - Advocate of Cloud-Neutral architecture, building portable, observable, and automated infrastructure across multi-cloud and hybrid environments.
 - Focused on multi-cloud automation and observability platform engineering to ensure standardization and consistency.
@@ -59,59 +59,59 @@
 | 2013.5-2013.10     | Inspur Electronic Information Co., Ltd. | KUX-OS Server Version Maintenance | System Software Engineer | Linux, Apache, Bash Scripting, Monitoring Tools |
 | 2011.05-2013.04    | China Standard Software Co., Ltd. | Linux System Porting and RPM Build Automation | Software Engineer | Linux, RPM Packaging, Koji Build System, Shell Scripting |
 
-# PROJECT/ CONSULTANCY SERVICES EXPERIENCE 
+# PROJECT/ CONSULTANCY SERVICES EXPERIENCE
 
 ## Personal Open-Source Projects
 
-- **XControl**  
-  Web-based control panel integrating **AI Workspace, AI Workspace, AI Workspace, Xstream**, and other modules. Provides a unified management interface for DevOps, observability, and AI Agent workflows.  
+- **XControl**
+  Web-based control panel integrating **AI Workspace, AI Workspace, AI Workspace, Xstream**, and other modules. Provides a unified management interface for DevOps, observability, and AI Agent workflows.
 - **AI Workspace Lab** ([GitHub](https://github.com/ai-workspace-lab)): Founder and maintainer of an AI workspace designed for continuous task delivery. Developed XWorkmate, turning AI conversations into chained tool execution and verifiable delivery flows with multi-agent context inheritance.
 - **AI Workspace Infra** ([GitHub](https://github.com/ai-workspace-infra)): Core contributor to cloud-native foundations for AI workspaces. Built a unified DevOps/GitOps toolkit integrating Gitea, Vault, Zitadel, and global observability for declarative multi-cloud infrastructure management.
 - **AI Workspace Services** ([GitHub](https://github.com/ai-workspace-services)): Engineered the production service backbone, unifying the control panel, account/auth services, and global cross-network connectivity to power AI workloads and platform observability.
 
-- **Xstream** ([GitHub](https://github.com/svc-design/Xstream))  
+- **Xstream** ([GitHub](https://github.com/svc-design/Xstream))
   Dart-based GUI client for cross-border service acceleration and connection management, enhancing reliability and speed
-- **Navi**  ([GitHub](https://github.com/svc-design/Navi)) 
-  A desktop AI assistant designed to guide tasks and boost productivity, helping users accomplish work more efficiently.  
+- **Navi**  ([GitHub](https://github.com/svc-design/Navi))
+  A desktop AI assistant designed to guide tasks and boost productivity, helping users accomplish work more efficiently.
 
-### Project 1: DeepFlow North-South Traffic Collection System Maintenance – China Telecom Finance  
-**Duration**: Nov 2024 – Jul 2025  
-**Company**: China Telecom Finance  
-**Role**: Network Observability Engineer  
-**Tech Stack**: DeepFlow, Linux, Pcap, Flow Logs, Performance Optimization, System Migration, Information Security Compliance  
+### Project 1: DeepFlow North-South Traffic Collection System Maintenance – China Telecom Finance
+**Duration**: Nov 2024 – Jul 2025
+**Company**: China Telecom Finance
+**Role**: Network Observability Engineer
+**Tech Stack**: DeepFlow, Linux, Pcap, Flow Logs, Performance Optimization, System Migration, Information Security Compliance
 
-**Project Description**  
-Supported the performance and stability assurance of the DeepFlow north-south traffic collectors, ensuring reliability under high-concurrency scenarios, and facilitated hardware upgrades and compliance-driven infrastructure transformation.  
+**Project Description**
+Supported the performance and stability assurance of the DeepFlow north-south traffic collectors, ensuring reliability under high-concurrency scenarios, and facilitated hardware upgrades and compliance-driven infrastructure transformation.
 
-**Responsibilities**  
-- Tuned collector performance and maintained stability, resolving bottlenecks and packet loss issues under heavy traffic.  
-- Assisted in hardware capacity planning and optimized DF Server storage/query performance to support migration and scaling.  
-- Drove issue tracking and closure across three project phases, establishing a standardized maintenance and feedback mechanism.  
-- Delivered fault reports, upgrade plans, optimization strategies, and implementation documents to ensure knowledge transfer.  
+**Responsibilities**
+- Tuned collector performance and maintained stability, resolving bottlenecks and packet loss issues under heavy traffic.
+- Assisted in hardware capacity planning and optimized DF Server storage/query performance to support migration and scaling.
+- Drove issue tracking and closure across three project phases, establishing a standardized maintenance and feedback mechanism.
+- Delivered fault reports, upgrade plans, optimization strategies, and implementation documents to ensure knowledge transfer.
 
-**Achievements**  
-- Resolved multiple performance bottlenecks, improving traffic collection and analysis stability.  
-- Completed DF Server performance optimization and scaling migration in the Nanjing region, enabling business expansion.  
-- Assisted in completing collector compliance-driven transformation, improving compatibility and regulatory adherence.  
+**Achievements**
+- Resolved multiple performance bottlenecks, improving traffic collection and analysis stability.
+- Completed DF Server performance optimization and scaling migration in the Nanjing region, enabling business expansion.
+- Assisted in completing collector compliance-driven transformation, improving compatibility and regulatory adherence.
 
-### Project 2: AI Agent Proof-of-Concept – COSCO Shipping  
-**Duration**: Jul 2025 – Sep 2025  
-**Company**: COSCO Shipping  
-**Role**: AI Operations Support Engineer  
-**Tech Stack**: AI Agent, Docker, Kubernetes, CI/CD, Conversational Agent, QA Testing  
+### Project 2: AI Agent Proof-of-Concept – COSCO Shipping
+**Duration**: Jul 2025 – Sep 2025
+**Company**: COSCO Shipping
+**Role**: AI Operations Support Engineer
+**Tech Stack**: AI Agent, Docker, Kubernetes, CI/CD, Conversational Agent, QA Testing
 
-**Project Description**  
-Contributed to the deployment and validation of an AI Agent proof-of-concept (POC), supporting model integration, containerized environment setup, and conversational workflow testing to assist the IT department’s technology evaluation.  
+**Project Description**
+Contributed to the deployment and validation of an AI Agent proof-of-concept (POC), supporting model integration, containerized environment setup, and conversational workflow testing to assist the IT department’s technology evaluation.
 
-**Responsibilities**  
-- Built the POC environment, enabling model integration, containerization, and CI/CD workflows.  
-- Collaborated with R&D to test conversational Agent workflows, including task decomposition, tool invocation, and knowledge base Q&A.  
-- Designed and executed QA testing plans to validate response latency, accuracy, and system stability.  
-- Provided deployment documentation and test checklists to support client evaluation and decision-making.  
+**Responsibilities**
+- Built the POC environment, enabling model integration, containerization, and CI/CD workflows.
+- Collaborated with R&D to test conversational Agent workflows, including task decomposition, tool invocation, and knowledge base Q&A.
+- Designed and executed QA testing plans to validate response latency, accuracy, and system stability.
+- Provided deployment documentation and test checklists to support client evaluation and decision-making.
 
-**Achievements**  
-- Delivered successful AI Agent POC deployment and demo, gaining recognition from client leadership.  
-- Produced reusable environment setup and validation documents, accelerating internal technology adoption.  
+**Achievements**
+- Delivered successful AI Agent POC deployment and demo, gaining recognition from client leadership.
+- Produced reusable environment setup and validation documents, accelerating internal technology adoption.
 
 ## Project 3: Tesla Shanghai Internal Project
 
@@ -162,14 +162,14 @@ Gathered customers' business needs and provided technical consulting services to
     1. Successfully migrated 106 hosts and 3 Kubernetes (K8S) clusters from Tencent Cloud to UCloud
     2. Guided Walnut Education Company to deploy 10 K8S clusters (over 200 nodes) on UCloud, providing comprehensive logging, monitoring, and CICD services
 
-## Project 6: Everbright Bank PaaS project	 
+## Project 6: Everbright Bank PaaS project
 
 2019.06-2020.06	Everbright Bank PaaS project	        On-site implementation engineer
 
 - Company Name: Everbright Bank
 - TechStack:    Alauda Container Platform/Jenkins CI/Prometheus/ES
 - Project Description: The container cloud PaaS platform of Everbright Bank is a platform with capabilities such as distributed microservice framework and service governance, distributed middleware, application life cycle management, intelligent operation and maintenance, platform management, application store and public application component services, as well as integration and customization capabilities and basic capabilities of container cloud platform.
-- Responsibility: 
+- Responsibility:
     1. Customer Collaboration and Requirements Gathering: Collaborated closely with the bank's stakeholders to finalize business requirements. This involved deep analysis and understanding of existing implementations and designing new solutions tailored to their needs.
     2. Platform Upgrade and Development: Worked in a team to upgrade the Everbright Bank's container platform from version 2.6 to 2.9. This included the development of new features, testing, and ensuring compatibility across different environments. Managed the successful upgrade of 8 Kubernetes clusters, enhancing the platform's stability and performance.
     3. Operations and Maintenance: Provided continuous support for a year post-upgrade, ensuring smooth operations and maintenance of the platform. This included monitoring and troubleshooting using tools like Prometheus and Elasticsearch, ensuring minimal downtime and quick resolution of issues.
@@ -180,7 +180,7 @@ Gathered customers' business needs and provided technical consulting services to
     1. Successfully completed platform upgrades 6 times with 8 k8s clusters, for Everbright Bank Container Platform
     1. Successfully fulfilled a year-long on-site operation and maintenance assignment, ensuring platform stability and providing valuable product improvement feedback.
 
-## Project 7: Deepin Server Product Development	
+## Project 7: Deepin Server Product Development
 
 2015.05-2018.04 Deepin Server Product Development	        Software Engineer
 
@@ -191,10 +191,10 @@ Gathered customers' business needs and provided technical consulting services to
     1. Developed and maintained UOS server product features.
     2. Created automated scripts for packaging, compiling, and deploying server releases.
     3. Provided technical support for server projects, including remote on-call support.
-    4. Conducted pre-research on container platform technologies and customized solutions for clients. 
+    4. Conducted pre-research on container platform technologies and customized solutions for clients.
 - Achievements:
     1. Successfully released multiple stable versions of the Deepin Server product.
-    2. Improved system performance and reduced deployment time through automation. 
+    2. Improved system performance and reduced deployment time through automation.
 
 ## Project 8: Infrastructure and Operations Management
 
@@ -213,7 +213,7 @@ Gathered customers' business needs and provided technical consulting services to
 
 ## Project 9: Linux Server Maintenance
 
-2013.5-2013.10	 Linux Server Maintenance	System Software Engineer	
+2013.5-2013.10	 Linux Server Maintenance	System Software Engineer
 
 - CompanyName:  Inspur Electronic Information Co., Ltd.
 - TechStack:    Linux, Apache, Bash Scripting, Monitoring Tools

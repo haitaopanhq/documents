@@ -6,7 +6,7 @@
 - **LinkedIn**: [www.linkedin.com/in/haitaopan](www.linkedin.com/in/haitaopan)
 - **Website**: http://www.svc.plus
 
-# Core Competencies & Expertise (Tailored to Job Requirements)
+# Core Competencies & Expertise
 - **AI Infrastructure & Heterogeneous Compute**: Proven hands-on experience at Tesla managing hybrid GPU infrastructures and deploying AI model serving frameworks (vLLM/SGLang/Ollama). Deeply involved in end-to-end setups spanning large-model integration, containerized resource scheduling, and RAG/AI Agent productionization.
 - **Infrastructure Architecture & Hardware SLA**: 14 years of IT experience, specializing in massive-scale Kubernetes cluster architectures across hybrid/multi-cloud environments. Successfully led the design and migration of K8s clusters (200+ nodes, 1600+ cores), taking ownership of hardware-to-system high availability and SLA metrics.
 - **Performance Tuning & Network Governance**: Intimate knowledge of Linux kernel internals and network protocols (NPM/APM, eBPF). At DeepFlow, resolved complex high-concurrency bottlenecks and packet loss issues for massive north-south traffic collectors.
@@ -35,7 +35,7 @@
 
 # Core Projects & Professional Experience (Ordered by JD Relevance)
 
-## 1. AI Infrastructure & GPU Cluster Operations 
+## 1. AI Infrastructure & GPU Cluster Operations
 **Project**: Tesla (Shanghai) Internal Service DevOps Evolution (2024.01-2024.04) | **Role**: Site Reliability Engineer (SRE)
 - **AI Computing Scheduling**: Managed the hybrid GPU infrastructure for internal AI services, pooling local Kubernetes clusters with public cloud AI SaaS. Unified heterogeneous compute allocation and ensured stable deployment of underlying inference frameworks (vLLM/Ollama).
 - **Hardware Cluster Reliability**: Monitored and analyzed operational metrics across edge control nodes, virtual machines, and container platforms, drastically reducing hardware-induced system downtimes and ensuring production SLA.
@@ -47,7 +47,7 @@
 - **Hardware Sizing & Storage Optimization**: Planned server hardware selection by forecasting traffic capacity metrics. Tuned the I/O and query performance of DF Server distributed databases to guarantee highly scalable foundational support.
 - **Standardized Troubleshooting**: Established technical feedback loops, standardized troubleshooting SOPs, and authored comprehensive upgrade blueprints to ensure seamless cross-team collaboration.
 
-## 3. Large-Scale AI Agent Platform Deployment 
+## 3. Large-Scale AI Agent Platform Deployment
 **Project**: AI Agent Proof-of-Concept - COSCO Shipping (2025.07-2025.09) | **Role**: AI Operations Support Engineer
 - **Environment Setup & Architecture**: Independently designed the containerized POC architecture, successfully integrating private LLM mounts and CI/CD pipelines to validate next-gen application infrastructure.
 - **Cross-Team R&D Alignment**: Collaborated with development teams to test complex multi-role conversational workflows, task decomposition, and API tool invocation reliability, generating vital QA metrics for executive decision-making.
@@ -68,7 +68,7 @@
 - **System Internals**: Deeply engaged in the R&D of the Deepin Server enterprise product and adapted the Linux kernel/drivers for the MIPS-based Loongson architecture, utilizing advanced low-level debugging tools.
 - **Build Efficiency**: Automated RPM packaging flows via the Koji build system, boosting the CI compilation and validation throughput by over 40%.
 
-# Personal Open-Source Contributions & R&D 
+# Personal Open-Source Contributions & R&D
 - **AI Workspace Lab** ([GitHub](https://github.com/ai-workspace-lab)): Founder and maintainer of an AI workspace designed for continuous task delivery. Developed XWorkmate, turning AI conversations into chained tool execution and verifiable delivery flows with multi-agent context inheritance.
 - **AI Workspace Infra** ([GitHub](https://github.com/ai-workspace-infra)): Core contributor to cloud-native foundations for AI workspaces. Built a unified DevOps/GitOps toolkit integrating Gitea, Vault, Zitadel, and global observability for declarative multi-cloud infrastructure management.
 - **AI Workspace Services** ([GitHub](https://github.com/ai-workspace-services)): Engineered the production service backbone, unifying the control panel, account/auth services, and global cross-network connectivity to power AI workloads and platform observability.
