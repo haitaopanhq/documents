@@ -19,76 +19,40 @@ jobs:
       - name: Validate Markdown Files
         run: .github/scripts/md_check.sh
 
-  build:
-    name: Build (${{ matrix.project }})
+  build-personal:
     needs: md-check
-    runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        project:
-          - Personal
-          - Personal/Forward_Deployed_Engineer
-          - Personal/Server_Arch_Ops_Engineer
-          - Personal/SRE_Cloud_Native_Engineer
-          - LandingZone
-          - Keycloak
-          - TechExploration
-          - Observability/CN
-          - Linux-K8S-OPS/CN
-          - interview-qa/CN
-          - interview-qa/EN
-          - The-IndieDeveloper-Fullstack-Roadmap/CN
-          - The-IndieDeveloper-Fullstack-Roadmap/EN
-          - Solutions/CN
-          - Solutions/EN
-          - AI-Platform/CV-EN.md
-          - AI-Platform/CV-ZH.md
-    env:
-      RSYNC_SSH_KEY: ${{ secrets.RSYNC_SSH_KEY }}
-      VPS_HOST: ${{ secrets.VPS_HOST }}
-      RSYNC_SSH_USER: ${{ secrets.RSYNC_SSH_USER }}
-      REMOTE_ROOT: ${{ secrets.REMOTE_ROOT }}
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+    uses: ./.github/workflows/build-personal.yml
 
-      - name: Set up build environment
-        run: .github/scripts/setup_build_env.sh
+  build-solutions:
+    needs: md-check
+    uses: ./.github/workflows/build-solutions.yml
 
-      - name: Build documents using Makefile
-        run: .github/scripts/build_docs.sh
-        env:
-          PROJECT: ${{ matrix.project }}
+  build-interview:
+    needs: md-check
+    uses: ./.github/workflows/build-interview.yml
 
-      - name: Prepare artifact name
-        run: .github/scripts/prepare_artifact_name.sh
-        env:
-          PROJECT: ${{ matrix.project }}
+  build-roadmap:
+    needs: md-check
+    uses: ./.github/workflows/build-roadmap.yml
 
-      - name: Upload PDF, DOCX, and HTML files to GitHub Artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: ${{ env.ARTIFACT_NAME }}
-          path: |
-            ${{ matrix.project }}
-            ${{ matrix.project }}*.pdf
-            ${{ matrix.project }}*.docx
-            ${{ matrix.project }}*.html
-            ${{ matrix.project }}/*.pdf
-            ${{ matrix.project }}/*.docx
-            ${{ matrix.project }}/*.html
-            ${{ matrix.project }}/**/*.pdf
-            ${{ matrix.project }}/**/*.docx
-            ${{ matrix.project }}/**/*.html
-            AI-Platform/*.pdf
-            AI-Platform/*.docx
-            AI-Platform/*.html
-          if-no-files-found: ignore
+  build-ai-platform:
+    needs: md-check
+    uses: ./.github/workflows/build-ai-platform.yml
+
+  build-others:
+    needs: md-check
+    uses: ./.github/workflows/build-others.yml
 
   release:
     name: GitHub Release & Deploy
-    needs: build
-    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+    needs:
+      - build-personal
+      - build-solutions
+      - build-interview
+      - build-roadmap
+      - build-ai-platform
+      - build-others
+    if: always() && (github.event_name == 'push' || github.event_name == 'workflow_dispatch') && needs.md-check.result == 'success'
     runs-on: ubuntu-latest
     env:
       TAG_NAME: release-v${{ github.run_number }}-${{ github.run_id }}
