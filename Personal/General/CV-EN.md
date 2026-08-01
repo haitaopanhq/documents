@@ -59,24 +59,20 @@
 | 2013.5-2013.10     | Inspur Electronic Information Co., Ltd. | KUX-OS Server Version Maintenance | System Software Engineer | Linux, Apache, Bash Scripting, Monitoring Tools |
 | 2011.05-2013.04    | China Standard Software Co., Ltd. | Linux System Porting and RPM Build Automation | Software Engineer | Linux, RPM Packaging, Koji Build System, Shell Scripting |
 
-
 # PROJECT/ CONSULTANCY SERVICES EXPERIENCE 
 
 ## Personal Open-Source Projects
 
 - **XControl**  
-  Web-based control panel integrating **XConfig, XCloudFlow, XScopeHub, Xstream**, and other modules. Provides a unified management interface for DevOps, observability, and AI Agent workflows.  
-- **XConfig** ([GitHub](https://github.com/svc-design/XConfig))  
-  Flexible DevOps orchestrator with Rust Agent, enabling modular deployment and configuration automation.  
-- **XCloudFlow** ([GitHub](https://github.com/svc-design/XCloudFlow))  
-  Multi-cloud management and automation framework for continuous infrastructure setup and cross-cloud orchestration.  
-- **XScopeHub** ([GitHub](https://github.com/svc-design/XScopeHub))  
-  Observability suite integrating **Vector / OpenTelemetry / OpenObserve / PostgreSQL (Timescale/pgvector)** for nearline ETL, IaC/Ansible topology, and active call graph analytics.  
+  Web-based control panel integrating **AI Workspace, AI Workspace, AI Workspace, Xstream**, and other modules. Provides a unified management interface for DevOps, observability, and AI Agent workflows.  
+- **AI Workspace Lab** ([GitHub](https://github.com/ai-workspace-lab)): Founder and maintainer of an AI workspace designed for continuous task delivery. Developed XWorkmate, turning AI conversations into chained tool execution and verifiable delivery flows with multi-agent context inheritance.
+- **AI Workspace Infra** ([GitHub](https://github.com/ai-workspace-infra)): Core contributor to cloud-native foundations for AI workspaces. Built a unified DevOps/GitOps toolkit integrating Gitea, Vault, Zitadel, and global observability for declarative multi-cloud infrastructure management.
+- **AI Workspace Services** ([GitHub](https://github.com/ai-workspace-services)): Engineered the production service backbone, unifying the control panel, account/auth services, and global cross-network connectivity to power AI workloads and platform observability.
+
 - **Xstream** ([GitHub](https://github.com/svc-design/Xstream))  
   Dart-based GUI client for cross-border service acceleration and connection management, enhancing reliability and speed
 - **Navi**  ([GitHub](https://github.com/svc-design/Navi)) 
   A desktop AI assistant designed to guide tasks and boost productivity, helping users accomplish work more efficiently.  
-
 
 ### Project 1: DeepFlow North-South Traffic Collection System Maintenance – China Telecom Finance  
 **Duration**: Nov 2024 – Jul 2025  
@@ -97,7 +93,6 @@ Supported the performance and stability assurance of the DeepFlow north-south tr
 - Resolved multiple performance bottlenecks, improving traffic collection and analysis stability.  
 - Completed DF Server performance optimization and scaling migration in the Nanjing region, enabling business expansion.  
 - Assisted in completing collector compliance-driven transformation, improving compatibility and regulatory adherence.  
-
 
 ### Project 2: AI Agent Proof-of-Concept – COSCO Shipping  
 **Duration**: Jul 2025 – Sep 2025  
@@ -226,7 +221,6 @@ Gathered customers' business needs and provided technical consulting services to
 - Responsibilities:
     1. Maintained Linux server environments to support various internal and client applications.
     2. Performed regular updates and patches to keep the servers secure and up-to-date.
-
 
 ## Project 10: Linux Server Maintenance
 

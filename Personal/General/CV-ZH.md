@@ -8,7 +8,6 @@
 - **语言**: 中文（母语），英语（会话）
 - **个人主页**: https://www.svc.plus
 
-
 # 关键经验与专长
 
 - 14 年 IT 从业经验（制造业 / 金融 / 运营商 / 互联网）
@@ -62,16 +61,12 @@
 
 ## 个人开源项目
 
-- **XCloudFlow** ([GitHub](https://github.com/svc-design/XCloudFlow))  
-  多云管理与自动化框架，支持持续的基础设施部署与跨云编排。  
-- **XControl**  
-  基于 Web 的控制端，集成 **XConfig、XCloudFlow、XScopeHub、Xstream** 等模块，提供统一的 DevOps、可观测性和 AI Agent 工作流管理界面。  
-- **XConfig** ([GitHub](https://github.com/svc-design/XConfig))  
-  灵活的 DevOps 编排器，基于 Rust Agent，实现模块化部署与配置自动化。  
-- **XScopeHub** ([GitHub](https://github.com/svc-design/XScopeHub))  
-  可观测性套件，集成 **Vector / OpenTelemetry / OpenObserve / PostgreSQL (Timescale/pgvector)**，支持近线 ETL、IaC/Ansible 拓扑与活跃调用链分析。  
+- **AI Workspace Lab** ([GitHub](https://github.com/ai-workspace-lab)): 发起并维护面向持续交付任务的 AI 工作区组织。打造 XWorkmate，将 AI 对话、任务拆解、工具调用与产物交付整合进同一个协作流，支持团队共享、审阅与上下文继承。
+- **AI Workspace Infra** ([GitHub](https://github.com/ai-workspace-infra)): 主导建设云原生基础设施与 AI 工作区底座，提供面向多云环境的一体化 DevOps/GitOps 工具集，整合 Gitea、Vault、Zitadel 及可观测平台，实现平台服务的声明式管理。
+- **AI Workspace Services** ([GitHub](https://github.com/ai-workspace-services)): 构建并维护真实业务运行的服务底座，聚合统一控制台、身份认证以及海外 AI 服务加速与跨网互联，支撑核心产品的高效运行。
 
----
+- **XControl**  
+  基于 Web 的控制端，集成 **AI Workspace、AI Workspace、AI Workspace、Xstream** 等模块，提供统一的 DevOps、可观测性和 AI Agent 工作流管理界面。  
 
 ## 企业项目
 
@@ -93,7 +88,6 @@
 - 成功解决多起性能瓶颈问题，提升系统采集与分析稳定性。  
 - 完成南京区域 DF Server 优化与扩容迁移，支撑业务扩展。  
 - 协助客户完成采集器信创化改造，提升合规性与兼容性。  
-
 
 ### 项目 2：中远海运 AI Agent POC
 **时间**：2025.07 – 2025.09  

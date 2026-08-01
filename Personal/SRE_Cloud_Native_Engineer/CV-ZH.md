@@ -8,10 +8,10 @@
 
 # 关键经验与核心竞争力（深度匹配云原生 SRE 岗）
 - **大规模 K8S 集群建设与运维**: 深耕云原生领域，拥有 106 台至千核级别（200+ 节点、1600+ 核算力）大规模 K8S 集群的架构设计、容量规划、跨版本平滑升级及稳定性保障经验（光大银行、核桃编程等）。精通 Linux 底层及网络协议栈。
-- **云原生周边生态与工具开发**: 精通并主导落地多项监控、日志、网络原生基础设施方案（Prometheus / ElasticSearch / Datadog / Vector / eBPF / CNI NSX-T 等）。熟练使用 Rust、Python 研发运维平台及 IaC 工具链（XCloudFlow / XConfig），具备扎实的 SRE 工具链开发及业务容器化部署实战能力。
+- **云原生周边生态与工具开发**: 精通并主导落地多项监控、日志、网络原生基础设施方案（Prometheus / ElasticSearch / Datadog / Vector / eBPF / CNI NSX-T 等）。熟练使用 Rust、Python 研发运维平台及 IaC 工具链（AI Workspace），具备扎实的 SRE 工具链开发及业务容器化部署实战能力。
 - **高并发排障与 OnCall 经验**: 长期负责核心网业务、金融级容器 PaaS 平台及工业控制基建的驻场运维与 OnCall 值班（甜橙金融南北流量系统、光大银行等）。擅长在极端场景下进行深度网络抓包、性能调优及突发事件止血，第一时间响应并联合研发团队保障核心系统高可用。
 - **大规模 GPU 集群与 AI 基础设施 (加分项)**: 曾在 Tesla（上海）负责混合 GPU 基础设施管理，深度参与本地集群与公有云 AI 服务的异构算力调度及推理框架部署运维，具备成熟的 AI 集群部署落地实战经验。
-- **开源贡献与云原生底层开发 (加分项)**: 深入研究云原生可观测性底座，作为 XConfig / XScopeHub 等多款底层平台开源项目的作者，具备基于底座 Rust Agent 进行云原生系统定制与二次开发的实战能力。熟练掌握 eBPF (DeepFlow) 及自定义运维架构。
+- **开源贡献与云原生底层开发 (加分项)**: 深入研究云原生可观测性底座，作为 AI Workspace 等多款底层平台开源项目的作者，具备基于底座 Rust Agent 进行云原生系统定制与二次开发的实战能力。熟练掌握 eBPF (DeepFlow) 及自定义运维架构。
 
 # 教育背景
 | 时间范围          | 最高学历 | 学校           | 专业               |
@@ -59,7 +59,7 @@
 - **底层网络疑难排查**：在金融级大规模流量中深度分析 Pcap 协议流日志，精准抓取并修复因内核协议栈瓶颈或路由配置失当导致的丢包、微服务组件网络互联互通延迟等深水区疑难杂症。
 
 ## 5. 云原生自动化运维系统与组件研发（个人开源）（对应 JD: 工具开发、二次开发、周边服务生态）
-- **AI Workspace Infra** ([GitHub](https://github.com/ai-workspace-infra)): 发起并维护云原生基础设施与 AI 工作区底座开源组织，提供面向多云环境和混合基础设施的一体化 DevOps/GitOps 工具集，整合代码托管、Vault、Zitadel 及全局可观测性平台，实现 AI 基础设施的声明式标准化管理。
-- **XConfig** ([GitHub](https://github.com/svc-design/XConfig)): 基于 Rust 语言深度开发的高性能微型 Agent 配置调度系统。实现了去中心化的集群模块化部署管控，具备出色的轻量化并发性能，展现扎实的底座二次开发及核心代码研发能力。
-- **XCloudFlow** ([GitHub](https://github.com/svc-design/XCloudFlow)): 独立构建的云中立多云管理与自动化基础架构框架，致力于降低多集群异构部署中的 IaC 重复编排难度。
-- **XScopeHub** ([GitHub](https://github.com/svc-design/XScopeHub)): 一站式日志/指标 ETL 数据集成平台，深研对接 Vector / OpenTelemetry 等云原生关键基础设施监控组件。
+- **AI Workspace Lab** ([GitHub](https://github.com/ai-workspace-lab)): 发起并维护面向持续交付任务的 AI 工作区组织。打造 XWorkmate，将 AI 对话、任务拆解、工具调用与产物交付整合进同一个协作流，支持团队共享、审阅与上下文继承。
+- **AI Workspace Infra** ([GitHub](https://github.com/ai-workspace-infra)): 主导建设云原生基础设施与 AI 工作区底座，提供面向多云环境的一体化 DevOps/GitOps 工具集，整合 Gitea、Vault、Zitadel 及可观测平台，实现平台服务的声明式管理。
+- **AI Workspace Services** ([GitHub](https://github.com/ai-workspace-services)): 构建并维护真实业务运行的服务底座，聚合统一控制台、身份认证以及海外 AI 服务加速与跨网互联，支撑核心产品的高效运行。
+

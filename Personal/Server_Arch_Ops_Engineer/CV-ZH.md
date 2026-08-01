@@ -11,7 +11,7 @@
 - **基础架构设计与高可用 SLA**: 14 年 IT 从业经验，精通多云及混合云场景下的容器化集群（Kubernetes）建设。曾主导多个千核级（200+节点）规模的 K8S 集群建设及底层架构迁移，对硬件到系统层面的高可用架构设计与 SLA 保障有深刻理解。
 - **高并发调优与网络治理**: 熟练掌握 Linux 系统内核与底层网络协议（eBPF/NPM/APM）。在甜橙金融项目中，成功解决南北大流量采集器的高并发性能瓶颈及网络丢包问题。
 - **硬件引入与选型**: 拥有数据中心硬件层面的容量规划、服务器配置选型与存储优化经验（如 DF Server 存储与查询调优）。
-- **编程研发与开源贡献**: 熟练使用 Python、Rust、Shell，熟悉 Go 和 C++ 体系。主导研发 XCloudFlow（多云自动化编排）、XConfig（Rust Agent）等多项开源工具，具备扎实的编码基础、架构抽象能力及极客精神。
+- **编程研发与开源贡献**: 熟练使用 Python、Rust、Shell，熟悉 Go 和 C++ 体系。主导研发 AI Workspace（多云自动化编排）、AI Workspace（Rust Agent）等多项开源工具，具备扎实的编码基础、架构抽象能力及极客精神。
 - **前沿技术与探索热情**: 对 RDMA、新型分布式存储以及 DPU/eBPF 卸载等前沿网络基础技术保持强烈兴趣，擅于推动先进架构在实际业务场景中的落地。
 
 # 教育背景
@@ -69,7 +69,8 @@
 - **构建效率优化**：基于 Koji 平台自研自动化部署与 RPM 打包流转体系，重构研发效能管线，使基础软件构建与验证的效率提升超过 40%。
 
 # 个人开源贡献与研发项目（对应 JD: 编程能力、开源贡献经历）
-- **XCloudFlow** ([GitHub](https://github.com/svc-design/XCloudFlow)): 云中立（Cloud-Neutral）多云运维编排与基础设施即代码（IaC）平台。
-- **XConfig** ([GitHub](https://github.com/svc-design/XConfig)): 基于 Rust 编写的灵活 DevOps 客户端 Agent 系统，实现轻量级、跨平台的配置模块下发。
-- **XScopeHub** ([GitHub](https://github.com/svc-design/XScopeHub)): 可观测性管道，集成 Vector/OpenTelemetry/pgvector，进行近线网络调用分析。
+- **AI Workspace Lab** ([GitHub](https://github.com/ai-workspace-lab)): 发起并维护面向持续交付任务的 AI 工作区组织。打造 XWorkmate，将 AI 对话、任务拆解、工具调用与产物交付整合进同一个协作流，支持团队共享、审阅与上下文继承。
+- **AI Workspace Infra** ([GitHub](https://github.com/ai-workspace-infra)): 主导建设云原生基础设施与 AI 工作区底座，提供面向多云环境的一体化 DevOps/GitOps 工具集，整合 Gitea、Vault、Zitadel 及可观测平台，实现平台服务的声明式管理。
+- **AI Workspace Services** ([GitHub](https://github.com/ai-workspace-services)): 构建并维护真实业务运行的服务底座，聚合统一控制台、身份认证以及海外 AI 服务加速与跨网互联，支撑核心产品的高效运行。
+
 - **Navi** ([GitHub](https://github.com/svc-design/Navi)): 接入大语言模型的研发增效辅助工具。
