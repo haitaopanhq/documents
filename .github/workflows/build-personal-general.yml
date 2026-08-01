@@ -8,8 +8,7 @@ on:
 jobs:
   build:
     name: Build (Personal)
-    runs-on:
-  workflow_dispatch: {} ubuntu-latest
+    runs-on: ubuntu-latest
     env:
       PROJECT: Personal
     steps:
