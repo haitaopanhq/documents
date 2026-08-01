@@ -8,8 +8,7 @@ on:
 jobs:
   build:
     name: Build (Personal/SRE_Cloud_Native_Engineer)
-    runs-on:
-  workflow_dispatch: {} ubuntu-latest
+    runs-on: ubuntu-latest
     env:
       PROJECT: Personal/SRE_Cloud_Native_Engineer
     steps:
