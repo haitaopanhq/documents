@@ -19,9 +19,21 @@ jobs:
       - name: Validate Markdown Files
         run: .github/scripts/md_check.sh
 
-  build-personal:
+  build-personal-general:
     needs: md-check
-    uses: ./.github/workflows/build-personal.yml
+    uses: ./.github/workflows/build-personal-general.yml
+
+  build-personal-fde:
+    needs: md-check
+    uses: ./.github/workflows/build-personal-fde.yml
+
+  build-personal-saoe:
+    needs: md-check
+    uses: ./.github/workflows/build-personal-saoe.yml
+
+  build-personal-scne:
+    needs: md-check
+    uses: ./.github/workflows/build-personal-scne.yml
 
   build-solutions:
     needs: md-check
@@ -46,7 +58,10 @@ jobs:
   release:
     name: GitHub Release & Deploy
     needs:
-      - build-personal
+      - build-personal-general
+      - build-personal-fde
+      - build-personal-saoe
+      - build-personal-scne
       - build-solutions
       - build-interview
       - build-roadmap

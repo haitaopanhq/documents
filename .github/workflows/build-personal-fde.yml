@@ -1,0 +1,41 @@
+---
+name: Build Personal FDE Docs
+
+on:
+  workflow_call:
+
+jobs:
+  build:
+    name: Build (Personal/Forward_Deployed_Engineer)
+    runs-on: ubuntu-latest
+    env:
+      PROJECT: Personal/Forward_Deployed_Engineer
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up build environment
+        run: .github/scripts/setup_build_env.sh
+
+      - name: Build documents using Makefile
+        run: .github/scripts/build_docs.sh
+
+      - name: Prepare artifact name
+        run: .github/scripts/prepare_artifact_name.sh
+
+      - name: Upload PDF, DOCX, and HTML files to GitHub Artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.ARTIFACT_NAME }}
+          path: |
+            ${{ env.PROJECT }}
+            ${{ env.PROJECT }}*.pdf
+            ${{ env.PROJECT }}*.docx
+            ${{ env.PROJECT }}*.html
+            ${{ env.PROJECT }}/*.pdf
+            ${{ env.PROJECT }}/*.docx
+            ${{ env.PROJECT }}/*.html
+            ${{ env.PROJECT }}/**/*.pdf
+            ${{ env.PROJECT }}/**/*.docx
+            ${{ env.PROJECT }}/**/*.html
+          if-no-files-found: ignore
