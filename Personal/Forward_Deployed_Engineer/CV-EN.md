@@ -9,7 +9,7 @@
 # Executive Summary & Core Competencies
 - **Strategic Client Engagement & White-Glove Delivery**: 3+ years of intensive customer-facing engineering experience as a Senior Solutions Architect (UCloud, Huaxun). Spearheaded the white-glove delivery and migration of large-scale IT systems and cloud-native infrastructures for strategic clients in **finance and education** (e.g., China Everbright Bank, Hetao101). Proven ability to navigate complex organizational structures and align multi-stakeholder priorities.
 - **0-to-1 AI Agent Architecture & Delivery**: Founder of AI Workspace Lab. Built production-grade, task-driven AI workspaces (XWorkmate) from scratch. Highly proficient in designing and integrating **MCP (Model Context Protocol) servers, sub-Agents, and custom Agent Skills**, successfully turning LLM capabilities into actionable, workflow-embedded enterprise tools.
-- **LLM Production & Infrastructure Deployment**: Extensive SRE experience at Tesla managing large-scale, heterogeneous GPU clusters. Adept at handling the full lifecycle of AI infrastructure, from prompt engineering and evaluation frameworks to large-scale inference deployment, ensuring absolute stability in rigorous production environments.
+- **AI Project Delivery & Implementation**: Possess a solid understanding of LLM infrastructure and GPU compute scheduling. Accumulated extensive hands-on experience in AI Agent delivery during the development of the AI Workspace ecosystem. Successfully delivered AI Agent projects for enterprises such as COSCO Shipping, capable of transitioning AI models from concepts to stable operation in real-world business environments.
 - **Reusable Deployment Patterns & Engineering Sync**: Strong technical acumen in abstracting frontline pain points into reusable, declarative deployment patterns (e.g., multi-cloud GitOps toolkits). Continuously tracks the bleeding edge of AI development stacks, actively bridging the gap between bespoke client needs and core product engineering.
 
 # Education
@@ -45,9 +45,9 @@
 - **Enterprise IT System Deployment**: Tailored end-to-end evolutionary architectures for legacy-to-cloud transitions. Spearheaded the seamless, zero-downtime migration of a massive 200-node, 1600-core production cluster. Demonstrated the ability to quickly "find the path" in highly ambiguous, matrixed enterprise environments.
 - **Trust Building & Product Refinement**: Maintained long-term, high-trust relationships with clients. Leveraged exceptional communication skills to articulate complex technical architectures to diverse audiences. Systematically channeled field deployment challenges back to internal R&D to refine core product features.
 
-## 3. Production-Grade LLM & Infrastructure Support
-**Project**: Tesla (Shanghai) Hybrid GPU Cluster & AI Infrastructure (2024.01-2024.04) | **Role**: SRE
-- **Large-Scale AI Infrastructure Deployment**: Managed the scheduling and orchestration of heterogeneous compute resources for internal AI services. Bridged on-premise GPU clusters with public cloud AI SaaS layers, ensuring the robust deployment of LLM inference services within the core production network.
+## 3. Hybrid GPU Cluster Management & Infrastructure Support
+**Project**: Tesla (Shanghai) Hybrid GPU Cluster & Underlying Infrastructure (2024.01-2024.04) | **Role**: SRE
+- **Heterogeneous Compute Resource Deployment**: Managed the monitoring and operation of internal hybrid compute resources. Bridged on-premise GPU clusters with public cloud layers, ensuring robust underlying service support.
 - **White-Glove OnCall & Stability**: Engineered high-availability monitoring, evaluation frameworks, and automated recovery pipelines for high-concurrency LLM requests. Rapidly responded to and mitigated critical edge-case incidents, unequivocally defending the business continuity of core AI workloads.
 
 ## 4. Engineering Reusable Deployment Patterns
