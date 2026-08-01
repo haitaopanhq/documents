@@ -12,7 +12,7 @@ ifeq ($(OS),Linux)
     RM_CMD    := rm -rvf
 else ifeq ($(OS),Darwin)
     MAIN_FONT := Times New Roman
-    CJK_FONT  := PingFang SC
+    CJK_FONT  := Songti SC
     PANDOC    := pandoc
     RM_CMD    := rm -rvf
 else ifeq ($(OS),Windows_NT)
@@ -41,12 +41,9 @@ HTMLS := $(MD_BASES:=.html)
 GEOMETRY := -V geometry:margin=1in
 FONTSIZE := -V fontsize=12pt
 
-SUBDIRS := AI-Delivery AI-Solutions-Architect General SRE-Infrastructure Solutions-Engineer-Architect other Server_Arch_Ops_Engineer SRE_Cloud_Native_Engineer
+.PHONY: all pdf docx html clean list help
 
-.PHONY: all pdf docx html clean clean-self clean-subdirs list help subdirs \
-        $(SUBDIRS) $(addprefix clean-,$(SUBDIRS))
-
-all: pdf docx html subdirs
+all: pdf docx html
 
 help:
 	@echo "Usage:"
@@ -64,12 +61,6 @@ list:
 	@echo "PDFS:     $(PDFS)"
 	@echo "DOCXS:    $(DOCXS)"
 	@echo "HTMLS:    $(HTMLS)"
-	@echo "SUBDIRS:  $(SUBDIRS)"
-
-subdirs: $(SUBDIRS)
-
-$(SUBDIRS):
-	$(MAKE) -C $@
 
 # -----------------------------
 # Pattern rules
@@ -99,12 +90,5 @@ pdf: $(PDFS)
 docx: $(DOCXS)
 html: $(HTMLS)
 
-clean: clean-self clean-subdirs
-
-clean-self:
+clean:
 	$(RM_CMD) $(PDFS) $(DOCXS) $(HTMLS)
-
-clean-subdirs: $(addprefix clean-,$(SUBDIRS))
-
-$(addprefix clean-,$(SUBDIRS)):
-	$(MAKE) -C $(@:clean-%=%) clean
