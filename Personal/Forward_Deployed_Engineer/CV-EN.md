@@ -45,10 +45,10 @@
 - **Enterprise IT System Deployment**: Tailored end-to-end evolutionary architectures for legacy-to-cloud transitions. Spearheaded the seamless, zero-downtime migration of a massive 200-node, 1600-core production cluster. Demonstrated the ability to quickly "find the path" in highly ambiguous, matrixed enterprise environments.
 - **Trust Building & Product Refinement**: Maintained long-term, high-trust relationships with clients. Leveraged exceptional communication skills to articulate complex technical architectures to diverse audiences. Systematically channeled field deployment challenges back to internal R&D to refine core product features.
 
-## 3. Hybrid GPU Cluster Management & Infrastructure Support
+## 3. Internal Enterprise Project
 **Project**: Tesla (Shanghai) Hybrid GPU Cluster & Underlying Infrastructure (2024.01-2024.04) | **Role**: SRE
-- **Heterogeneous Compute Resource Deployment**: Managed the monitoring and operation of internal hybrid compute resources. Bridged on-premise GPU clusters with public cloud layers, ensuring robust underlying service support.
-- **White-Glove OnCall & Stability**: Engineered high-availability monitoring, evaluation frameworks, and automated recovery pipelines for high-concurrency LLM requests. Rapidly responded to and mitigated critical edge-case incidents, unequivocally defending the business continuity of core AI workloads.
+- **Large-Scale Heterogeneous Compute Deployment**: Responsible for the monitoring and operation of internal application systems for factory production lines. Interfaced with the hybrid GPU cluster and underlying infrastructure, collaborating with the Infra team to jointly deliver robust internal IT service support.
+- **OnCall Support**: Built high-availability monitoring and auto-recovery mechanisms for high-concurrency and critical paths. Responded rapidly to extreme incidents, ensuring business continuity and extreme stability of service invocations.
 
 ## 4. Engineering Reusable Deployment Patterns
 **Project**: AI Workspace Infra & Services Platform Engineering | **Role**: Core Developer
