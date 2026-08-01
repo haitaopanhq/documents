@@ -1,5 +1,5 @@
 ---
-name: Build Personal General Docs
+name: Build Personal SRE Infrastructure Docs
 
 on:
   workflow_dispatch: {}
@@ -7,10 +7,10 @@ on:
 
 jobs:
   build:
-    name: Build (Personal/General)
+    name: Build (Personal/SRE-Infrastructure)
     runs-on: ubuntu-latest
     env:
-      PROJECT: Personal/General
+      PROJECT: Personal/SRE-Infrastructure
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
