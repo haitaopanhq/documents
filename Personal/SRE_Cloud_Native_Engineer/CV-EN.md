@@ -59,6 +59,7 @@
 - **Complex Container Interconnectivity Diagnostics**: Parsed extreme volumes of Pcap flow data. Precision-identified and cured packet drops and microservice latency bottlenecks stemming from kernel TCP/IP stack limitations or faulty routing geometries.
 
 ## 5. Cloud-Native Automation Tooling R&D (Open Source)
+- **AI Workspace Infra** ([GitHub](https://github.com/ai-workspace-infra)): Founder and maintainer of an open-source organization focused on cloud-native infrastructure for AI workspaces. Developed a unified DevOps/GitOps toolkit integrating code hosting, Vault, Zitadel, and global observability to provide declarative management for multi-cloud and hybrid environments.
 - **XConfig** ([GitHub](https://github.com/svc-design/XConfig)): Developed a blazing-fast, decentralized cluster configuration and deployment scheduling Agent written exclusively in Rust. Evidences advanced systems programming, robust secondary development abilities, and custom daemon architecture.
 - **XCloudFlow** ([GitHub](https://github.com/svc-design/XCloudFlow)): Independently designed a cloud-agnostic IaC workflow engine targeting rapid, reproducible deployments across disparate cluster environments.
 - **XScopeHub** ([GitHub](https://github.com/svc-design/XScopeHub)): An observability data integration platform unifying the extraction and visualization of metrics/logs from cloud-native giants like Vector and OpenTelemetry.

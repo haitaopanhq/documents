@@ -59,6 +59,7 @@
 - **底层网络疑难排查**：在金融级大规模流量中深度分析 Pcap 协议流日志，精准抓取并修复因内核协议栈瓶颈或路由配置失当导致的丢包、微服务组件网络互联互通延迟等深水区疑难杂症。
 
 ## 5. 云原生自动化运维系统与组件研发（个人开源）（对应 JD: 工具开发、二次开发、周边服务生态）
+- **AI Workspace Infra** ([GitHub](https://github.com/ai-workspace-infra)): 发起并维护云原生基础设施与 AI 工作区底座开源组织，提供面向多云环境和混合基础设施的一体化 DevOps/GitOps 工具集，整合代码托管、Vault、Zitadel 及全局可观测性平台，实现 AI 基础设施的声明式标准化管理。
 - **XConfig** ([GitHub](https://github.com/svc-design/XConfig)): 基于 Rust 语言深度开发的高性能微型 Agent 配置调度系统。实现了去中心化的集群模块化部署管控，具备出色的轻量化并发性能，展现扎实的底座二次开发及核心代码研发能力。
 - **XCloudFlow** ([GitHub](https://github.com/svc-design/XCloudFlow)): 独立构建的云中立多云管理与自动化基础架构框架，致力于降低多集群异构部署中的 IaC 重复编排难度。
 - **XScopeHub** ([GitHub](https://github.com/svc-design/XScopeHub)): 一站式日志/指标 ETL 数据集成平台，深研对接 Vector / OpenTelemetry 等云原生关键基础设施监控组件。
