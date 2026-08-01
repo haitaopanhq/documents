@@ -19,23 +19,31 @@
 - Q1：统计 /var/log/nginx/access.log 中访问最多的前 5 个 IP
 A：
 
+```bash
 awk '{print $1}' /var/log/nginx/access.log | sort | uniq -c | sort -nr | head -5
+```
 
 扩展：
 
+```bash
 #排除健康检查、仅统计 200 成功且 /api 路径
 awk '$9==200 && $7 ~ /^\/api\// {print $1}' access.log | sort | uniq -c | sort -nr | head -10
 # 统计每分钟 QPS（含时间窗解析）
 awk '{gsub(/\[|\]/,"",$4); t=substr($4,1,17) ";00"; c[t]++} END{for(k in c) print k, c[k]}' access.log | sort
+```
 
 - Q2：查找大文件 & 近 24h 内变更的配置
 
+```bash
 find / -xdev -type f -size +500M -printf '%s %p\n' | sort -nr | head -20
 find /etc -type f -mtime -1 -print
+```
 
 - Q3：批量替换文本（幂等）
 
+```bash
 sed -ri 's/^(#?UseDNS)\s+.*/UseDNS no/' /etc/ssh/sshd_config && systemctl reload sshd
+```
 
 ## 1.2 性能 & 指标理解
 
