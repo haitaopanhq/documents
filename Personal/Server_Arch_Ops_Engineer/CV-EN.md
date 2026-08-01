@@ -11,7 +11,7 @@
 - **Infrastructure Architecture & Hardware SLA**: 14 years of IT experience, specializing in massive-scale Kubernetes cluster architectures across hybrid/multi-cloud environments. Successfully led the design and migration of K8s clusters (200+ nodes, 1600+ cores), taking ownership of hardware-to-system high availability and SLA metrics.
 - **Performance Tuning & Network Governance**: Intimate knowledge of Linux kernel internals and network protocols (NPM/APM, eBPF). At DeepFlow, resolved complex high-concurrency bottlenecks and packet loss issues for massive north-south traffic collectors.
 - **Hardware Selection & Resource Management**: Adept at data center hardware capacity planning, server configuration selection, and storage layer optimization (e.g., DF Server distributed database tuning).
-- **Software Engineering & Open Source**: Highly proficient in Python, Rust, and Shell scripting, with a solid grasp of Go and C/C++ paradigms. Creator and main contributor of open-source DevOps and observability platforms (XCloudFlow, XConfig), demonstrating excellent coding practices and architectural abstraction.
+- **Software Engineering & Open Source**: Highly proficient in Python, Rust, and Shell scripting, with a solid grasp of Go and C/C++ paradigms. Creator and main contributor of open-source DevOps and observability platforms (AI Workspace), demonstrating excellent coding practices and architectural abstraction.
 - **Advanced Tech Exploration**: Passionate about adopting cutting-edge technologies (RDMA, DPU network offloading, modern distributed storage) and establishing IaC (Terraform/Ansible)/GitOps ecosystems to maximize operational automation.
 
 # Education
@@ -69,7 +69,8 @@
 - **Build Efficiency**: Automated RPM packaging flows via the Koji build system, boosting the CI compilation and validation throughput by over 40%.
 
 # Personal Open-Source Contributions & R&D 
-- **XCloudFlow** ([GitHub](https://github.com/svc-design/XCloudFlow)): A cloud-neutral multi-cloud management and Infrastructure-as-Code (IaC) orchestrator.
-- **XConfig** ([GitHub](https://github.com/svc-design/XConfig)): A highly flexible DevOps client agent written in Rust, featuring lightweight and cross-platform configuration deployments.
-- **XScopeHub** ([GitHub](https://github.com/svc-design/XScopeHub)): An observability pipeline leveraging Vector/OpenTelemetry/pgvector for nearline network call graph analytics.
+- **AI Workspace Lab** ([GitHub](https://github.com/ai-workspace-lab)): Founder and maintainer of an AI workspace designed for continuous task delivery. Developed XWorkmate, turning AI conversations into chained tool execution and verifiable delivery flows with multi-agent context inheritance.
+- **AI Workspace Infra** ([GitHub](https://github.com/ai-workspace-infra)): Core contributor to cloud-native foundations for AI workspaces. Built a unified DevOps/GitOps toolkit integrating Gitea, Vault, Zitadel, and global observability for declarative multi-cloud infrastructure management.
+- **AI Workspace Services** ([GitHub](https://github.com/ai-workspace-services)): Engineered the production service backbone, unifying the control panel, account/auth services, and global cross-network connectivity to power AI workloads and platform observability.
+
 - **Navi** ([GitHub](https://github.com/svc-design/Navi)): An AI-assistant toolkit utilizing Large Language Models to boost R&D and DevOps productivity.

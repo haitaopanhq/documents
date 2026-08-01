@@ -116,14 +116,14 @@ Hands-on experience deploying and maintaining **AI Agent, RAG, and observability
 
 ## 🌍 OPEN-SOURCE & INNOVATION PROJECTS
 
-### **XScopeHub**
+### **AI Workspace**
 > AI-powered observability suite integrating **Vector / OpenTelemetry / OpenObserve / PostgreSQL (pgvector)**.
 Supports nearline ETL, knowledge retrieval, and automated topology analysis.
 
 ### **XControl**
 > Unified web console integrating observability and AI orchestration for multi-cloud deployments.
 
-### **XCloudFlow**
+### **AI Workspace**
 > Infrastructure-as-Code automation engine using Terraform + Ansible for consistent environment provisioning.
 
 ### **Navi**
