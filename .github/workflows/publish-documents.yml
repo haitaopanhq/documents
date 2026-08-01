@@ -19,6 +19,14 @@ jobs:
       - name: Validate Markdown Files
         run: .github/scripts/md_check.sh
 
+  build-personal-ai-delivery:
+    needs: md-check
+    uses: ./.github/workflows/build-personal-ai-delivery.yml
+
+  build-personal-ai-solutions-architect:
+    needs: md-check
+    uses: ./.github/workflows/build-personal-ai-solutions-architect.yml
+
   build-personal-general:
     needs: md-check
     uses: ./.github/workflows/build-personal-general.yml
@@ -27,13 +35,29 @@ jobs:
     needs: md-check
     uses: ./.github/workflows/build-personal-fde.yml
 
-  build-personal-saoe:
+  build-personal-sre-infrastructure:
     needs: md-check
-    uses: ./.github/workflows/build-personal-saoe.yml
+    uses: ./.github/workflows/build-personal-sre-infrastructure.yml
+
+  build-personal-sre-systemengineer-linux:
+    needs: md-check
+    uses: ./.github/workflows/build-personal-sre-systemengineer-linux.yml
 
   build-personal-scne:
     needs: md-check
     uses: ./.github/workflows/build-personal-scne.yml
+
+  build-personal-saoe:
+    needs: md-check
+    uses: ./.github/workflows/build-personal-saoe.yml
+
+  build-personal-solutions-engineer-architect:
+    needs: md-check
+    uses: ./.github/workflows/build-personal-solutions-engineer-architect.yml
+
+  build-personal-other:
+    needs: md-check
+    uses: ./.github/workflows/build-personal-other.yml
 
   build-solutions:
     needs: md-check
@@ -58,10 +82,16 @@ jobs:
   release:
     name: GitHub Release & Deploy
     needs:
+      - build-personal-ai-delivery
+      - build-personal-ai-solutions-architect
       - build-personal-general
       - build-personal-fde
-      - build-personal-saoe
+      - build-personal-sre-infrastructure
+      - build-personal-sre-systemengineer-linux
       - build-personal-scne
+      - build-personal-saoe
+      - build-personal-solutions-engineer-architect
+      - build-personal-other
       - build-solutions
       - build-interview
       - build-roadmap
