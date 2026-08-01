@@ -3,7 +3,7 @@
 - **位置**: 中国上海
 - **电话**: 13120746579
 - **邮箱**: haitaopanhq@gmail.com
-- **LinkedIn**: [www.linkedin.com/in/haitaopan](www.linkedin.com/in/haitaopan)
+- **LinkedIn**: https://www.linkedin.com/in/haitaopan
 - **个人主页**: https://www.svc.plus
 
 # 关键经验与核心竞争力
